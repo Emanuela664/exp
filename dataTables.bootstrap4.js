@@ -20,9 +20,9 @@
 	else if ( typeof exports === 'object' ) {
 		// CommonJS
 		module.exports = function (root, $) {
-			if ( ! root ) {
-				root = window;
-			}
+// 			if ( ! root ) {
+// 				root = window;
+// 			}
 
 			if ( ! $ || ! $.fn.dataTable ) {
 				// Require DataTables, which attaches to jQuery, including
